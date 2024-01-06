@@ -1,0 +1,959 @@
+{ 
+  "intenst": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! chat SMKN 1 Sungai Limau di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya , salam kenal ya! Mau tau Informasi tentang SMKN 1 Sungai Limau kan?",
+        "Helo! Ini chat SMKN 1 Sungai Limau. Lagi kepo tentang Sekolah ini ya?",
+        "Hai! ELSI-Bot di sini. Kamu mau bertanya seputar Sekolah SMKN 1 Sungai Limau? Insya Allah saya akan menjawabnya :)",
+        "Halo! Saya ELSI-Bot, salam kenal ya! Semoga kamu sehat selalu ya...mau bertanya seputar Sekolah SMKN 1 Sungai Limau? bisa langsung bertanya kepada saya :) ",
+        "Helo! Ini ELSI-Bot",
+        "Hai! ELSI-Bot disni. Mau tanya seputar Sekolah SMKN 1 Sungai Limau? bisa tanyakan kepada saya :)",
+        "saya ELSI-Bot, Mau bertanya seputar Sekolah SMKN 1 Sungai Limau?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati:)"
+      ]
+    },
+    {
+      "tag": "pencipta_ELSIBot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Siapa sih yang membuat kamu?",
+        "yang buat kamu siapa?"
+      ],
+      "responses": [
+        "ELSI-Bot diciptakan oleh mahasiswi dari UIN SUSKA RIAU yang memiliki ide kreatif dan semangat untuk menyelesaikan Tugas Akhir dan berhasil menciptakan saya saat ini",
+        "Pembuat ELSI-Bot dari kalangan mahasiswi UIN SUSKA RIAU lho!",
+        "Penciptaku berasal dari UIN SUSKA RIAU untuk menyelesaikan Tugas akhir dan juga membantu Sekolah SMKN 1 Sungai Limau memberikan informasi kepada calon siswa baru menggunakan chatbot ini"
+      ]
+    },
+    {
+      "tag": "kepala_sekolah",
+      "patterns": [
+        "siapa kepala sekolah SMKN 1 Sungai Limau saat ini?",
+        "nama kepala sekolah yang menjabat saat ini?",
+        "sebutkan nama kepala sekolah di smkn 1 sungai limau", "siapa nama kepala sekolah smkn 1 sungai limau?",
+        "kepala sekolah"
+      ],
+      "responses": [
+        "Akmal.,M.Pd"
+      ]
+    },
+    {
+      "tag": "alamat",
+      "patterns": [
+        "dimana sekolah ini?",
+        "sebutkan alamat sekolah smkn 1 sungai limau?",
+        "dimana alamat sekolah smkn 1 sungai limau?",
+        "Dimana letak alamat lengkap sekolah ini?",
+        "Bisa beri tahu saya alamat pasti dari sekolah ini?",
+        "Bagaimana saya bisa menemukan sekolah ini? Apa alamatnya?",
+        "Bisakah memberi saya informasi alamat sekolah ini?",
+        "Saya sedang mencari alamat sekolah, apakah bisa memberikan petunjuknya?",
+        "Tolong berikan saya alamat yang tepat dari sekolah ini",
+        "Saya butuh alamat sekolah untuk navigasi. Apa alamatnya?",
+        "Bisa beri tahu saya alamat sekolah dan cara terbaik untuk mencapainya?",
+        "Apa alamat lengkap dari sekolah tersebut?",
+        "Saya tidak tahu di mana sekolah ini berada. Bisakah Anda memberikan alamatnya?",
+        "alamat", "alamat sekolah?"
+      ],
+      "responses": [ 
+        "Padang Galo, Pilubang. Kecamatan Sungai Limau, Kabupaten Padang Pariaman, Provinsi Sumatera Barat"
+      ]
+    },
+    {
+      "tag": "akreditasi",
+      "patterns": [
+        "Apa akreditasi sekolah?",
+        "sebutkan akreditasi sekolah ini",
+        "akreditasi sekolah", "akreditasi"
+        
+      ],
+      "responses": [
+        "Akreditasi sekolah saat ini yaitu B"
+      ]
+    },
+    {
+      "tag": "tahun_berdiri_sekolah",
+      "patterns": [
+        "kapan sekolah SMKN 1 Sungai Limau didirikan?","sejak kapan sekolah ini ada?",
+        "kapan sekolah ini berdiri?",
+        "Bisakah memberi tahu saya tahun berdirinya SMKN 1 Sungai Limau?",
+        "Sejak kapan SMKN 1 Sungai Limau beroperasi sebagai sekolah?",
+        "Bolehkah saya tahu tahun berdiri resmi SMKN 1 Sungai Limau?",
+        "Kapan SMKN 1 Sungai Limau pertama kali didirikan dan mulai beroperasi?",
+        "Ketika SMKN 1 Sungai Limau pertama kali berdiri, tahun berapa itu?",
+        "Bolehkah Anda memberikan informasi lebih lanjut tentang awal berdirinya SMKN 1 Sungai Limau?",
+        "tahun berdiri sekolah", "sekolah berdiri tahun"
+      ],
+      "responses": [
+        "sekolah ini didirikan tahun 2011"
+      ]
+    },
+    {
+      "tag": "pendiri_sekolah",
+      "patterns": [
+        "Siapa pendiri atau tokoh utama yang terlibat dalam pendirian sekolah ini?",
+        "sebutkan nama orang yang mendirikan sekolah smkn 1 sungai limau?",
+        "berapa banyak yang ikut mendirikan sekolah",
+        "pendiri pertama sekolah",
+        "Bisakah memberi tahu siapa yang mendirikan SMKN 1 Sungai Limau?",
+        "Bolehkah Anda memberikan informasi tentang tokoh atau individu yang menjadi pendiri SMKN 1 Sungai Limau?",
+        "pendiri sekolah"
+      ],
+      "responses": [
+        "pendiri sekolah berjumlah 2 orang yaitu Ir. Mawardi Samah dan Drs. Rismardi Ramli"
+      ]
+    },
+
+    {
+      "tag": "latar_belakang_berdirinyasekolah",
+      "patterns": [
+        "Apa yang menjadi latar belakang pendirian SMKN 1 Sungai Limau?",
+        "alasan kenapa sekolah smkn 1 sungai limau didirikan?",
+        "kenapa sekolah smkn 1 sungai limau dibangun?",
+        "Apa yang mendorong berdirinya SMKN 1 Sungai Limau?",
+        "Apa latar belakang pendirian SMKN 1 Sungai Limau?",
+        "latar belakang sekolah", "sejarah", "sejarah sekolah"
+      ],
+      "responses": [
+        "Letak SMK Negeri 1 Sungai Limau secara geografis di perbukitan, dengan tekstur tanah yang bertingkat. Keadaan masyarakat disekitar sekolah mayoritas bekerja sebagai petani. Kekhasan dan karakteristik daerah di SMK Negeri 1 Sungai Limau inilah yang memungkinkan sehingga dibukanya Bidang Keahlian Teknologi dan Rekayasa guna mendukung kegiatan pertanian yang ada di daerah sekitar SMK Negeri 1 Sungai Limau. SMK Negeri 1 Sungai Limau dengan segala potensi yang dimilikinya akan berusaha untuk menghasilkan lulusan yang kompeten di bidangnya dengan tetap mengedapankan penciptaan sikap dan karakter yang baik bagi lulusan."
+      ]
+    },
+    {
+      "tag": "perkembangansekolah",
+      "patterns": [
+        "Bagaimana perkembangan sekolah ini sejak pendiriannya hingga saat ini?",
+        "sebutkan perkembangan sekolah dari awal dibangun sampai sekarang?",
+        "apa aja perkembangan sekolah ini?",
+        "Dapatkah memberikan gambaran tentang pencapaian terkini SMKN 1 Sungai Limau?",
+        "Bagaimana perubahan signifikan dalam kurun waktu terakhir yang mencerminkan perkembangan SMKN 1 Sungai Limau?",
+        "perkembangan sekolah"
+
+      ],
+      "responses": [
+        "Dari segi sarana dan prasarana sudah cukup memadahi dengan tersedianya ruang belajar, workshop beserta alat praktiknya, sarana perpustakaan, sarana Ibadah, sarana olah raga dan lain-lain. Dari segi IT alhamdulillah SMKN 1 Sungai Limau sudah terjangkau Internet sehingga memudahkan untuk mencari tambahan sumber belajar dari luar."
+      ]
+    },
+    {
+      "tag": "kurikulum",
+      "patterns": [
+        "Apa perubahan signifikan dalam kurikulum dan program pendidikan selama sejarah sekolah?",
+        "apakah ada perubahan kurikulum di smkn 1 sungai limau?",
+        "kurikulum sekolah"
+      ],
+      "responses": [
+        "Kurikulum SMKN 1 Sungai Limau disusun dengan memperhatikan tahap perkembangan siswa dan kesesuaian dengan jenis pekerjaan, lingkungan sosial, kebutuhan pembangunan nasional, perkembangan ilmu pengetahuan dan teknologi, serta kesenian. Karena itu, penyusunannya bertumpu pada landasan filosofis, ekonomis dan yuridis tertentu. Pengembangan Kurikulum Tingkat Satuan Pendidikan (KTSP) yang beragam mengacu pada Permendikbud Nomor 34 tahun 2018 tentang Standar Nasional Pendidikan(SNP) SMK/MAK yakni Standar Kompetensi Lulusan (SKL), Standar Isi, Standar Proses, Standar Penilaian dan Standar Pengelolaan. Standar Kempetensi Lulusan dan Standar Isi merupakan bagian penting dan menjadi acuan utama bagi satuan pendidikan dalam mengembangkan kurikulum. Agar didapatkan arah pengembangan KTSP yang menuju kepada muatan yang sama, maka BSNP mengeluarkan petunjuk pengembangan kurikulum. "
+      ]
+    },
+    {
+      "tag": "momenpenting",
+      "patterns": [
+        "Apa peristiwa atau momen penting dalam sejarah SMKN 1 Sungai Limau yang patut disebutkan?", 
+        "Apakah ada momen penting dalam sejarah smkn 1 sungai limau?",
+        "peristiwa", "moment penting sekolah"
+      ],
+      "responses": [
+        "1. Setelah resmi didirikan tahun 2011 SMKN 1 Sungai Limau membuka pendaftaran siswa di SMA N 2 Sungai Limau karena belum memiliki gedung sendiri. \n2. Tahun 2016 SMKN 1 Sungai Limau mendapatkan bantuan hibah tanah sebagai prasarana sekolah dari salah satu warga masyarakat di Kenagarian Pilubang, selanjutnya ditahap awal SMKN 1 Sungai Limau mendapatkan bantuan bangunan gedung ruang belajar, untuk tahap berikutnya SMKN 1 Sungai Limau berangsur mendapatkan bantuan bangunan pustaka, ruang belajar, worshop sebagai sarana praktik Otomotif kompetensi Teknik kendaraan ringan dan Teknik Alat Berat, Workshop Elektronika Industri, labor DPIB, labor Teknik Pengelasan (2020) dan sekarang labor Multimedia."
+      ]
+    },
+    {
+      "tag": "peranalumni",
+      "patterns": [
+        "Bagaimana peran alumni dalam perkembangan dan prestasi sekolah selama bertahun-tahun?",
+        "apakah alumni memberikan bantuan kepada sekolah?",
+        "peran alumni", "peran alumni terhadap sekolah"
+      ],
+      "responses": [
+        "Alumni adalah aset berharga bagi sekolah, dan kontribusi mereka dapat membantu sekolah mencapai prestasi yang lebih baik dan berkembang. \n  Peran alumni dalam perkembangan dan prestasi sekolah dapat sangat bervariasi tergantung pada tingkat keterlibatan dan sumbangan yang mereka berikan. \n Mentor dan Pelatih: Alumni yang telah sukses dalam karier mereka dapat berperan sebagai mentor atau pelatih bagi siswa saat ini. Mereka dapat memberikan wawasan, nasihat, dan bimbingan kepada siswa tentang jalur karier dan kehidupan setelah lulus. \n Alumni SMKN 1 Sungai Limau memiliki jaringan dan koneksi yang luas dalam berbagai industri. Mereka dapat membantu adik-adiknya dengan menyediakan kesempatan magang, peluang pekerjaan, atau membantu dalam membangun kontak yang berguna. \n Alumni juga berpartisipasi dalam berbagai kegiatan sekolah, seperti ceramah tamu, atau acara akademik. \n Kehadiran alumni dapat memberikan inspirasi kepada siswa dan memperkaya pengalaman pendidikan mereka. \n Peran dalam Pengembangan Kurikulum: Alumni yang telah berkarier di berbagai bidang dapat memberikan masukan tentang kurikulum yang relevan dengan tuntutan pasar kerja saat ini. Hal ini dapat membantu sekolah dalam memperbarui program pendidikan mereka. \n Memotivasi Siswa: Kisah sukses alumni bisa menjadi sumber motivasi bagi siswa saat ini. Mereka dapat membuktikan bahwa pendidikan di sekolah tersebut dapat mengarah pada kesuksesan di masa depan. \n Berpartisipasi dalam Kegiatan Amal dan Sosial: Alumni dapat mengorganisir atau berpartisipasi dalam kegiatan amal dan sosial yang mendukung sekolah atau masyarakat sekitar. Hal ini menciptakan ikatan yang kuat antara sekolah dan komunitas. \n Prestasi dan Penghargaan Alumni: Prestasi dan penghargaan yang diterima oleh alumni dapat menciptakan citra positif untuk sekolah. Ini dapat meningkatkan kepercayaan masyarakat terhadap sekolah dan meningkatkan daya tarik bagi calon siswa."
+      ]
+    },
+    {
+      "tag": "prestasi",
+      "patterns": [
+        "Apa prestasi unggulan atau pencapaian bersejarah yang telah dicapai oleh SMKN 1 Sungai Limau?",
+        "sebutkan prestasi yang telah diraih oleh guru smkn 1 sungai limau ?",
+        "sebutkan prestasi yang telah diraih oleh siswa smkn 1 sungai limau?",
+        "apakah ada prestasi sekolah smkn 1 sungai limau",
+        "prestasi", "prestasi sekolah"
+      ],
+      "responses": [
+        "1. Prestasi dari siswa beberapa kali mendapatkan penghargaan perlombaan di tingkat kabupaten melalui jalor O2SN seperti renang, Bulu Tangkis, lari jarak pendek, Kepramukaan. \n  2. Prestasi Guru: Juara dalam lomba Video Pembelajaran, tercatat sebagai guru yang banyak mengikuti pelatihan pengembangan diri, ikut berperan di kegiatan guru penggerak baik sebagai CGP, Pengejar Praktik dan Fasilitator Guru Penggerak"
+      ]
+    },
+    {
+      "tag": "penerimaansiswabaru",
+      "patterns": [
+        "Bagaimana proses penerimaan siswa baru di SMKN 1 Sungai Limau diatur?",
+        "sebutkan proses penerimaan di sekolah ini?", "penerimaan siswa baru", "penerimaan"
+      ],
+      "responses": [
+        "Proses penerimaan siswa baru di SMKN 1 Sungai Limau,  berdasarkan kebijakan dan pedoman yang ditetapkan oleh Dinas Pendidikan Provinsi Sumatera barat dan regulasi nasional di Indonesia.Pengumuman Penerimaan: Sekolah biasanya mengumumkan penerimaan siswa baru melalui berbagai saluran, seperti media sosial, surat kabar, dan papan pengumuman. Pengumuman ini mencakup informasi tentang persyaratan, jadwal pendaftaran, dan dokumen yang diperlukan."
+      ]
+    },
+    {
+      "tag": "jumlah guru",
+      "patterns": [
+        "berapa jumlah semua guru?",
+        "jumlah guru?", "ada berapa guru", "guru ada berapa"
+      ],
+      "responses": [
+        "guru berjumlah 36 orang"
+      ]
+    },
+    {
+      "tag": "jumlah siswa",
+      "patterns": [
+        "berapa jumlah semua siswa?",
+        "jumlah siswa?", "ada berapa murid", "siswa ada berapa", "ada berapa siswa"
+      ],
+      "responses": [
+        "Murid berjumlah 114 orang"
+      ]
+    },
+    {
+      "tag": "tatacaradaftar",
+      "patterns": [
+        "Bagaimana tatacara pendaftaran di SMKN 1 Sungai Limau?",
+        "sebutkan cara pendaftaran siswa baru di sekolah smkn 1 sungai limau?",
+        "bagaimana cara daftar calon siswa baru di smkn 1 sungai limau?",
+        "Apa saja langkah-langkah tata cara pendaftaran siswa baru di SMKN 1 Sungai Limau?",
+        "Tata cara daftar di SMKN 1 Sungai Limau", "tata cara daftar", "pertama kali yang harus dilakukan ketika daftar",
+        "lamgkah-langkah pendaftaran"
+      ],
+      "responses": [
+        "A. Tatacara pendaftaran siswa yang berasal dari dalam provinsi Sumatera Barat: \n 1. Siswa memperoleh akun dari operator SMP/MTS sekolah asal. \n 2. siswa melakukan pergantian password dengan memasukan data yang diperluakan bagi keamanan akun siswa. \n 3. siswa melakukan pengecekan perbaikan data dan melengkapi data pokok (data diri, data dokumen, data nilai). \n 4. siswa mengecek data yang telah dimasukan dan mengkonfirmasi bahwa data tersebut sudah benar. \n 5. siswa memilih jalur masuk yang ingin di daftar. \n 6. operator sekolah memverifikasi berkas dan data siswa yang telah diupload dan siswa memberikan data fisik jika diminta. \n 7. siswa menunggu proses verifikasi dan dapat melihat data verifikasi di aplikasi PPDB. \n 8. sistem melakukan perangkingan penilaian masing-masing jalur. \n 9. siswa yang masuk perangkingan dinyatakan lulus dapat mengikuti pendaftaran selanjutnya. \n 10. siswa yang dinyatakan lulus untuk melakukan pendaftaran ulang kesekolah yang inyatakan lulus sesuai jadwal yang ditetapkan. \n B. Tatacara pendaftaran siswa yang berasal dari luar provinsi Sumatera Barat: \n 1. Siswa membuat akun dari hasil registrasi PPDB online. \n 2. siswa melakukan login kesistem PPDB menggunakan NIK dan password yang telah dibuat sebelumnya. \n 3. siswa melakukan pengisian data dan melengkapi data pokok (data diri, data dokumen, data nilai). \n 4. siswa mengecek data yang telah dimasukan dan mengkonfirmasi bahwa data tersebut sudah benar.\n 5. siswa memilih jalur masuk dan memilih sekolah yang ingin di daftar. \n 6. operator sekolah memverifikasi berkas siswa yang telah diupload dan siswa memberikan data fisik jika diminta. \n 7. siswa menunggu proses verifikasi dan dapat melihat data verifikasi pada menu hasil. \n 8. sistem melakukan perangkingan penilaian masing-masing jalur. \n 9. siswa yang masuk perangkingan dinyatakan lulus, sedangkan siswa yang tidak lulus dapat mengikuti pendaftaran selanjutnya. \n 10. siswa yang dinyatakan lulus diharuskan untuk melakukan pendaftaran ulang kesekolah yang dinyatakan lulus. \n Proses Pendaftaran: Calon siswa dan orang tua atau wali mereka harus mengikuti proses pendaftaran yang ditentukan. Ini mungkin melibatkan mengisi formulir pendaftaran, mengumpulkan dokumen yang diperlukan, dan membayar biaya pendaftaran (jika ada). biasanya seleksi pendaftaran siswa baru dilakukan 2 tahap yaitu tahap 1 di lakukan di pertenganhan bulan juni dengan rincian pendaftaran, tes bakat dan minat, pengumuman dan daftar ulang setelah dinyatakan lulus. \n Pengumuman Hasil: Setelah proses seleksi selesai, sekolah akan mengumumkan hasil penerimaan. Calon siswa yang diterima akan diberitahu tentang langkah selanjutnya, seperti pendaftaran resmi dan persiapan untuk tahun ajaran baru. \n Pendaftaran Resmi: Calon siswa yang diterima akan diminta untuk melakukan pendaftaran resmi, yang melibatkan pengisian formulir pendaftaran, pembayaran biaya sekolah (jika ada), dan pengumpulan dokumen yang diperlukan. \n  Orientasi: Sekolah biasanya mengadakan sesi orientasi untuk siswa baru dan orang tua mereka. Selama sesi ini, mereka akan diberikan informasi tentang aturan sekolah, kurikulum, dan kegiatan ekstrakurikuler."
+      ]
+    },
+    {
+      "tag": "syaratdaftar",
+      "patterns": [
+        "Apa syarat dan kriteria yang harus dipenuhi calon siswa untuk diterima di SMKN 1 Sungai Limau?",
+        "apa saja yang harus disiapkan ketika mendaftar?",
+        "apa saja yang harus ada ketika mendaftar di smkn 1 sungai limau?",
+        "sebutkan syarat pendaftaran?",
+        "Bagaimana calon siswa dapat mendaftar di SMKN 1 Sungai Limau, dan apa persyaratannya?",
+        "Adakah dokumen-dokumen yang diperlukan selama proses pendaftaran di SMKN 1 Sungai Limau?",
+        "Syarat pendaftaran", "syarat daftar"
+      ],
+      "responses": [
+        "Umum: 1. Ijazah atau Surat keterangan Kelulusan \n 2. kartu keluarga (KK) minimal domisili satu tahun. \n 3. Foto Copy rapor SMP/MTS/sederajat Semester 1 s.d 5. \n Khusus: \n 1. Kartu program kemiskinan (KIP,PKH,KKS) yang terdaftar pada DTKS (untuk jalur afirmasi, pilihan pertama dalam zonasi dan pilihan kedua zonasi terdekat dalam kabupaten/kota). \n 2. Surat keterangan domisili dari kelurahan/desa/nagari bagi korban bencana alam/sosial).\n 3. Surat pindah tugas orang tua/wali dalam instansi, lembaga,kantor dan atau perusahaan berbadan hukum (bagi jalur perpindahan orang tua/anak kandung diterbitkan paling lama 1 tahun di PPDB berjalan) dilengkapi dengan surat keterangan domisili yang dikeluarkan oleh lurah, desa dan nagari setempat. \n 4. Bagi calon peserta didik alur afirmasi dari penyandang disabilitas melampirkan surat asesmen yang dikeluarkan oleh sekolah luar biasa. \n 5. sertifikat/piagam dokumen prestasi (untuk jalur prestasi)"
+      ]
+    },
+    {
+      "tag": "kuotadaftar",
+      "patterns": [
+        "Apakah ada batas kuota penerimaan siswa baru di SMKN 1 Sungai Limau?",
+        "Apakah SMKN 1 Sungai Limau memiliki batas kuota penerimaan siswa baru setiap tahunnya?",
+        "Adakah kriteria khusus yang harus dipenuhi oleh calon siswa agar dapat diterima di SMKN 1 Sungai Limau?",
+        "Adakah pembatasan jumlah siswa yang dapat diterima di SMKN 1 Sungai Limau pada setiap tingkatan atau jurusan?",
+        "Berapa batas maksimal penerimaan siswa baru di SMKN 1 Sungai Limau setiap tahunnya?",
+        "Berapa jumlah Kuota penerimaan siswa baru di SMKN1 Sungai Limau setiap tahun nya?",
+        "Adakah perbedaan jumlah kuota antara program keahlian atau jurusan di SMKN 1 Sungai Limau?", "jumlah siswa diterima"
+      ],
+      "responses": [
+        "ada, 36 siswa/ jurusan"
+      ]
+    },
+    {
+      "tag": "pemilihansiswabaru",
+      "patterns": [
+        "Bagaimana sistem seleksi atau penilaian siswa dalam proses penerimaan?",
+        "Apakah terdapat kerangka kerja atau panduan tertentu yang diikuti dalam sistem seleksi penerimaan?",
+        "Bagaimana calon siswa dapat mempersiapkan diri untuk mengikuti proses seleksi penerimaan di SMKN 1 Sungai Limau?",
+        "Apakah ada wawancara atau evaluasi tambahan selama proses penerimaan siswa baru di SMKN 1 Sungai Limau?",
+        "Adakah kriteria khusus yang dipertimbangkan dalam menilai kemampuan atau potensi siswa selama proses seleksi?",
+        "pemilihan siswa baru"
+
+      ],
+      "responses": [
+        "Sistem seleksi atau penilaian siswa dalam proses penerimaan menggunkan: \n 1. Tes nilai akademik sebagai faktor penentu utama. Ini dapat mencakup nilai rata-rata rapor atau hasil ujian akademik, seperti Ujian Nasional (UN) atau Ujian Akhir Sekolah (UAS). \n 2. Tes wawancara dengan calon siswa dan/atau orang tua mereka dapat digunakan untuk menilai motivasi, kesiapan, dan minat dalam pendidikan. \n 3. Tes Keterampilanuntuk menilai keterampilan teknis atau kejuruan calon siswa. \n 4. Prestasi Non-Akademik seperti penghargaan dalam bidang olahraga, seni, atau kegiatan ekstrakurikuler dapat menjadi faktor penentu."
+      ]
+    },
+    {
+      "tag": "jalurkhusus",
+      "patterns": [
+        "Apakah ada jalur khusus atau program unggulan untuk penerimaan siswa baru?",
+        "Apakah SMKN 1 Sungai Limau memiliki jalur khusus atau program unggulan dalam penerimaan siswa baru?",
+        "Apakah terdapat program atau jalur akses yang memberikan keuntungan tertentu kepada calon siswa dalam proses penerimaan?",
+        "jalur khusus", "jalur khusus pendaftaran"
+
+      ],
+      "responses": [
+        "saat ini belum ada"
+      ]
+    },
+    {
+      "tag": "bukapendaftaran",
+      "patterns": [
+        "Kapan waktu pendaftaran siswa baru biasanya dibuka?",
+        "kapan buka pendaftaran di sekolah smkn 1 sungai limau?",
+        "kapan calon siswa baru bisa mendaftar di sekolah smkn 1 sungai limau?",
+        "Kapan waktu pendaftaran siswa baru di SMKN 1 Sungai Limau biasanya dibuka setiap tahunnya?",
+        "Bagaimana calon siswa dapat mengetahui kapan pendaftaran dibuka di SMKN 1 Sungai Limau?",
+        "Dapatkah Anda memberikan informasi tentang tanggal atau periode pendaftaran siswa baru terbaru di SMKN 1 Sungai Limau?",
+        "pendaftaran dibuka", "buka pendaftaran"
+      ],
+      "responses": [
+        "minggu ke-2 bulan juni"
+      ]
+    },
+    {
+      "tag": "informasipenerimaan",
+      "patterns": [
+        "Bagaimana informasi mengenai penerimaan siswa baru biasanya disampaikan kepada masyarakat?",
+        "cara penyampaian penerimaan siswa baru?",
+        "bagaimana informasi penerimaan siswa baru bisa sampai kepada calon siswa?",
+        "Bagaimana SMKN 1 Sungai Limau memastikan bahwa informasi terkait waktu pendaftaran siswa baru tersedia secara jelas dan mudah diakses oleh masyarakat?",
+        "Bagaimana prosedur pendaftaran biasanya diumumkan kepada calon siswa dan orang tua?",
+        "informasi penerimaan"
+      ],
+      "responses": [
+        "Melalui promosi ke sekolah-sekolah SMP/MTS terdekat, pembagian brosur PPDB melalui  group Wa, FB dan media lainnya "
+      ]
+    },
+    {
+      "tag": "komunikasi",
+      "patterns": [
+        "Bagaimana proses komunikasi antara sekolah dan calon siswa atau orang tua selama proses penerimaan?",
+        "Bagaimana SMKN 1 Sungai Limau menjalin komunikasi dengan calon siswa atau orang tua selama proses penerimaan siswa baru?",
+        "Apakah terdapat saluran komunikasi resmi yang digunakan oleh sekolah untuk memberikan informasi kepada calon siswa dan orang tua?",
+        "Bagaimana cara SMKN 1 Sungai Limau memberikan pemberitahuan atau pengumuman terkait proses penerimaan kepada calon siswa?",
+        "Apakah ada pertemuan atau sesi informasi khusus yang diadakan oleh SMKN 1 Sungai Limau untuk calon siswa dan orang tua selama proses penerimaan?",
+        "Bagaimana SMKN 1 Sungai Limau memastikan transparansi dan aksesibilitas informasi selama proses penerimaan?"
+      ],
+      "responses": [
+        "Pengumuman Resmi: Sekolah umumnya mengumumkan secara resmi informasi tentang proses PPDB, termasuk tanggal penting, persyaratan pendaftaran, dan alur prosesnya melalui situs web sekolah, papan pengumuman, atau surat resmi. \n Konseling dan Informasi di Sekolah: Sekolah dapat mengadakan pertemuan khusus atau sesi konseling dengan calon siswa dan/atau orang tua untuk memberikan penjelasan tentang proses penerimaan, menjawab pertanyaan, dan memberikan arahan. \n Email dan Surat Resmi: Sekolah mungkin mengirimkan email atau surat resmi kepada calon siswa atau orang tua untuk memberikan informasi penting atau mengingatkan tentang tanggal penting. \n Kontak Telepon: Sekolah menyediakan nomor telepon kontak yang dapat dihubungi jika ada pertanyaan atau kebingungan mengenai proses penerimaan. Sosial Media dimana sekolah memanfaatkan media sosial untuk mengirimkan informasi terbaru, pengumuman, dan pembaruan seputar proses penerimaan. \n Pertemuan Informal: Pihak sekolah atau panitia penerimaan mengadakan pertemuan informal atau sesi tanya jawab dengan orang tua dan calon siswa untuk menjelaskan proses lebih lanjut."
+      ]
+    },
+    {
+      "tag": "preferensisiswabaru",
+      "patterns": [
+        "Apakah SMKN 1 Sungai Limau memberikan preferensi atau kriteria khusus bagi calon siswa dari daerah atau latar belakang tertentu?",
+        "Apakah sekolah memberikan prioritas bagi calon siswa yang memiliki keterkaitan atau hubungan dengan komunitas sekitar?",
+        "preferensi siswa"
+      ],
+      "responses": [
+        "Ada preferensi untuk saudara kandung yang sudah bersekolah di sekolah yang sama. Keluarga Guru atau tenaga kependidikan"
+      ]
+    },
+    {
+      "tag": "pengumumanhasil",
+      "patterns": [
+        "Bagaimana prosedur pengumuman hasil seleksi dan penerimaan siswa baru biasanya diatur?",
+        "Bagaimana kita bisa tau diterima atau tidak?",
+        "bagaimana cara mengetahui diterima di sekolah smkn 1 sungai limau?", "pengumuman hasil"
+      ],
+      "responses": [
+        "Pengumuman hasil seleksi dan penerimaan siswa baru dilakukan sekolah melalui WA orang tua siswa"
+      ]
+    },
+    {
+      "tag": "memehamipersyaratan",
+      "patterns": [
+        "Bagaimana SMKN 1 Sungai Limau mendukung calon siswa dan orang tua dalam memahami persyaratan dan prosedur penerimaan?",
+        "Apakah terdapat panduan resmi yang disediakan oleh sekolah untuk membantu calon siswa dan orang tua memahami proses penerimaan?"
+      ],
+      "responses": [
+        "Sekolah umumnya mengumumkan secara resmi informasi tentang proses PPDB, termasuk tanggal penting, persyaratan pendaftaran, dan alur prosesnya melalui Wa, papan pengumuman, atau surat resmi."
+      ]
+    },
+    {
+      "tag": "perubahandaftarsiswabaru",
+      "patterns": [
+        "Apakah ada perubahan signifikan dalam proses penerimaan siswa baru selama beberapa tahun terakhir?",
+        "apakah ada perubahan cara mendaftar siswa baru dari tahun sebelumnya?"
+      ],
+      "responses": [
+        "tidak ada perubahan"
+      ]
+    },
+    {
+      "tag": "carasiswabarumemahami",
+      "patterns": [
+        "Bagaimana SMKN 1 Sungai Limau memastikan bahwa calon siswa memahami persyaratan dan tata cara pendaftaran?",
+        "Bagaimana SMKN 1 Sungai Limau menyediakan informasi yang jelas dan mudah dimengerti tentang tata cara pendaftaran kepada calon siswa?",
+        "Bagaimana SMKN 1 Sungai Limau menggunakan teknologi atau media sosial untuk menyampaikan informasi pendaftaran kepada calon siswa?",
+        "Apakah terdapat kanal komunikasi yang aktif yang memungkinkan calon siswa mengajukan pertanyaan atau meminta klarifikasi terkait tata cara pendaftaran?"
+      ],
+      "responses": [
+        "Sekolah sekarang mengintegrasikan teknologi dalam proses penerimaan siswa baru. Pendaftaran dan pengumuman hasil seringkali dilakukan secara online, memudahkan akses dan pengiriman informasi."
+      ]
+    },
+    {
+      "tag": "disabilitas",
+      "patterns": [
+        "Apakah sekolah memberikan dukungan khusus untuk calon siswa dengan kebutuhan khusus atau disabilitas?",
+        "adakah di smkn 1 sungai limau menerima siswa yang disabilitas?", "disabilitas"
+      ],
+      "responses": [
+        "Iya, Siswa dengan kebutuhan khusus dapat menerima dukungan dari guru atau staf pendidikan khusus yang terlatih. Ini dapat termasuk sesi pembelajaran tambahan atau dukungan dalam kelas. dan salah satu guru di SMKN 1 sungai Limau telah mendapatkan pelatihan tambahan untuk bekerja dengan siswa yang memiliki kebutuhan khusus."
+      ]
+    },
+    {
+      "tag": "menghubungisekolah",
+      "patterns": [
+        "Bagaimana calon siswa atau orang tua dapat menghubungi sekolah untuk pertanyaan dan informasi tambahan mengenai penerimaan siswa baru?",
+        "bagaimana cara menghubungi pihak sekolah untuk menanyakan informasi lebih lanjut?"
+      ],
+      "responses": [
+        "Untuk menghubungi SMKN 1 Sungai Limau bagaimana calon siswa atau orang tua dapat menghubungi sekolah untuk pertanyaan dan informasi tambahan mengenai penerimaan siswa baru. \n 1. Mengirim email ke alamat email sekolah \n 2. Dapat mengunjungi sekolah secara langsung jika memungkinkan. \n 3. dengan menggunakan media sosial yang dapat digunakan untuk menghubungi mereka dan mendapatkan informasi terbaru tentang penerimaan siswa baru."
+      ]
+    },
+    {
+      "tag": "bimbingankonseling",
+      "patterns": [
+        "Apakah ada program bimbingan dan konseling yang tersedia untuk membantu calon siswa dalam memilih jurusan atau program keahlian yang sesuai?",
+        "apakah bisa konsul ke sekolah jika kita bingung dalam memilih jurusan?", "bk", "bimbingan konseling"
+      ],
+      "responses": [
+        "Bimbingan dan konseling adalah bagian penting dari pendidikan dan sudah ada di SMKN 1 Sungai Limau, siap membantu calon siswa memilih jurusan atau program keahlian yang sesuai dengan minat, bakat, dan tujuan karier mereka. "
+      ]
+    },
+    {
+      "tag": "alurpenerimaan",
+      "patterns": [
+        "Bagaimana sekolah memastikan bahwa proses penerimaan siswa baru berjalan dengan lancar dan sesuai dengan peraturan yang berlaku?",
+        "gimana alur penerimaan siswa baru?", "alur penerimaan", "proses penerimaan"
+      ],
+      "responses": [
+        "Pengembangan Panduan dan Prosedur: SMKN 1 Sungai Limau mengembangkan panduan dan prosedur penerimaan siswa baru yang jelas dan komprehensif. Dokumen ini harus mencakup persyaratan pendaftaran, alur proses penerimaan, tahapan-tahapan yang harus diikuti, dan tanggal penting. \n Transparansi Informasi: SMKN 1 Sungai Limau memastikan bahwa informasi tentang proses penerimaan siswa baru tersedia secara terbuka kepada calon siswa dan orang tua. Informasi ini dapat diumumkan melaui media sosial seperti WA, papan pengumuman, surat kabar lokal. \n Ketepatan Waktu dan Komunikasi: SMKN 1 Sungai Limau memastikan bahwa semua komunikasi kepada calon siswa dan orang tua, seperti surat atau email, dikirimkan dan diterima tepat waktu. \n Dukungan Konseling:  Dukungan konseling di SMKN 1 Sungai Limau tersedia bagi calon siswa dan orang tua yang membutuhkan bantuan dalam proses penerimaan. Konselor sekolah dapat memberikan panduan, menjawab pertanyaan, dan memberikan informasi yang diperlukan. \n Seleksi yang Adil: Jika ada seleksi atau tes dalam proses penerimaan, SMKN 1 Sungai Limau memastikan bahwa prosedur seleksi berjalan secara adil, obyektif, dan sesuai dengan peraturan yang berlaku. \n Penggunaan Teknologi: SMKN 1 Sungai Limau  dapat memanfaatkan teknologi untuk mengotomatiskan dan mengelola proses penerimaan. Ini dapat mencakup pendaftaran online dan sistem pengumuman hasil. \n Transparansi dan Akuntabilitas: Proses penerimaan di SMKN 1 Sungai Limau harus transparan, dan sekolah harus dapat memberikan alasan yang jelas dan berbasis hukum untuk keputusan yang diambil. \n Pelatihan Staf: Staf sekolah SMKN 1 Sungai Limau yang terlibat dalam proses penerimaan harus diberikan pelatihan untuk memahami aturan dan peraturan penerimaan siswa baru serta memastikan bahwa mereka dapat memberikan informasi yang akurat kepada calon siswa dan orang tua. \n Peninjauan dan Evaluasi: Setelah proses penerimaan selesai, SMKN 1 Sungai Limau melakukan peninjauan dan evaluasi untuk mengidentifikasi area yang mungkin memerlukan perbaikan atau perubahan dalam proses penerimaan di masa depan. \n Kepatuhan Hukum: Proses penerimaan SMKN 1 Sungai Limau selalu mematuhi hukum dan peraturan yang berlaku. Sekolah harus menjalankan penerimaan siswa baru sesuai dengan ketentuan hukum yang berlaku di wilayah atau negara bagian mereka."
+      ]
+    },
+    {
+      "tag": "situsweb",
+      "patterns": [
+        "Apa alamat atau situs web resmi yang dapat diakses untuk informasi lebih lanjut tentang pendaftaran calon siswa baru di SMKN 1 Sungai Limau?",
+        "apakah smn 1 sungai limau mempunyai website?",
+        "website apa yang digunakan ketika mendaftar di smkn 1 sungai limau?", "situs web"
+      ],
+      "responses": [
+        "website sekolah tidak aktif lagi https://smkn1sungailimau.sch.id/ karena aplikasi yang bikin website SMKN 1 Sungai Limau ini meminta bayaran. lalu tidak diteruskan oleh pihak sekolah. \n sistem pendaftaran online SMKN 1 Sungai Limau memakaI aplikasi sekolah yang terbaru di menu pendaftaran. \n dan selanjutnya melakukan pendaftaran yang disediakan oleh pusat yaitu website PPDB. Untuk melakukan pendaftaran calon siswa baru dapat mengakses website PPDB https://ppdb.sumbarprov.go.id/. \n PPDB bertujuan memberi kesempatan yang seluas-luasnya bagi warga negara usia sekolah khususnya di Provinsi Sumatera Barat agar memperoleh layanan pendidikan yang berkualitas. Daya tampung sekolah yang terbatas untuk dapat menerima jumlah peserta didik baru yang terdaftar, maka perlu diadakan sistem seleksi PPDB yang objektif, transparan, akuntabel, tidak diskriminatif, dan kompetitif, serta menjamin akses layanan pendidikan di Provinsi Sumatera Barat dapat menjangkau ke semua lapisan masyarakat, dapat dilaksanakan dengan mudah, terjangkau dan berkualitas."
+      ]
+    },
+    {
+      "tag": "jumlah jurusan",
+      "patterns": [
+        "Berapa jumlah jurusan atau program keahlian yang tersedia di SMKN 1 Sungai Limau?", "jumlah jurusan"
+      ],
+      "responses": [
+        "6 Jurusan"
+      ]
+    },
+    {
+      "tag": "programkeahlian",
+      "patterns": [
+        "Apa nama-nama jurusan atau program keahlian yang dapat dipilih oleh siswa di SMKN 1 Sungai Limau?",
+        "jurusan apa saja yang ada di smkn 1 sungai limau?",
+        "apa saja jurusan yang disediakan oleh smkn 1 sungai limau?",
+        "Paparkan deskripsi singkat dari setiap jurusan atau program keahlian yang ditawarkan?",
+        "apa saja program keahlian yang ada di smkn 1 sungai limau",
+        "lorem",
+        "program keahlian", "jurusan", 
+        "kompetensi keahlian",
+        "jelaskan semua jurusan yang ada di smkn 1 sungai limau?", 
+        "jelaskan semua program keahlian yang disediakan di smkn 1 sungai limau?"
+      ],
+      "responses": [
+        "1. Jurusam Teknik Alat Berat (TAB) adalah program pendidikan kejuruan yang fokus pada pengembangan keterampilan dan pengetahuan terkait dengan pengoperasian, pemeliharaan, dan perbaikan alat berat. Jurusam Teknik Alat Berat bertujuan untuk melatih siswa agar menjadi operator, teknisi, atau manajer alat berat yang kompeten. Lulusan dari jurusan ini dapat bekerja di berbagai sektor industri, termasuk konstruksi, pertambangan, perkebunan, logistik, dan banyak lagi. Mereka memiliki peran penting dalam memastikan bahwa alat berat digunakan dengan aman dan efisien dalam berbagai proyek dan operasi industri. \n 2. Jurusan Teknik Kendaraan Ringan Otomotif (TKRO) adalah salah satu program pendidikan kejuruan yang fokus pada pemahaman, perawatan, perbaikan, dan modifikasi kendaraan bermotor berukuran ringan, seperti mobil dan sepeda motor. Siswa di jurusan TKRO mempelajari prinsip-prinsip dasar mesin kendaraan, sistem kelistrikan, sistem kemudi, sistem suspensi, sistem bahan bakar, dan berbagai komponen kendaraan lainnya. Mereka memahami cara kerja sistem-sistem ini. Jurusan Teknik Kendaraan Ringan Otomotif bertujuan untuk melatih siswa agar menjadi teknisi otomotif yang kompeten. Lulusan dari jurusan ini dapat bekerja di berbagai sektor industri otomotif, termasuk bengkel kendaraan, dealer mobil, perusahaan manufaktur otomotif, perusahaan rental mobil, dan banyak lagi. Mereka memainkan peran penting dalam menjaga dan memperbaiki kendaraan bermotor, yang merupakan bagian integral dari kehidupan sehari-hari. \n 3. Teknik Elektronika Industri (TEI) adalah program pendidikan kejuruan yang berfokus pada pemahaman, perancangan, instalasi, perawatan, dan pemecahan masalah sistem elektronika industri. Program TEI mengajarkan siswa tentang berbagai aspek sistem elektronika industri, seperti PLC (Programmable Logic Controller), motor listrik, sensor, aktuator, dan komponen elektronik lainnya yang digunakan dalam lingkungan industri. \n 4. Design Permodelan dan Informasi Bangunan (DPIB) adalah suatu pendekatan dalam industri konstruksi yang menggunakan perangkat lunak dan teknologi informasi untuk merancang, memodelkan, dan mengelola seluruh siklus hidup proyek bangunan, dari perencanaan hingga pemeliharaan. DPIB telah menjadi suatu paradigma penting dalam industri konstruksi modern karena kemampuannya untuk meningkatkan efisiensi, kolaborasi, dan pengelolaan proyek. Hal ini memungkinkan para profesional di berbagai bidang terlibat dalam konstruksi untuk bekerja bersama-sama dengan lebih baik, mengurangi kesalahan, dan meminimalkan biaya proyek.  \n 5. Teknik Pengelasan dan Fabrikasi Logam (TPFL) adalah bidang pendidikan kejuruan yang fokus pada pemahaman, keterampilan, dan teknik terkait dengan pengelasan dan fabrikasi logam. Program Teknik Pengelasan dan Fabrikasi Logam bertujuan untuk melatih siswa menjadi teknisi pengelasan dan fabrikasi logam yang kompeten. Mereka dapat bekerja di berbagai sektor industri, termasuk manufaktur, konstruksi, dan perbaikan. Selain itu, karena logam digunakan dalam berbagai aplikasi, profesional TPFL memiliki peran penting dalam pembuatan berbagai produk logam yang kita temui sehari-hari. \n 6. Jurusan Multimedia adalah bidang pendidikan yang mempersiapkan siswa untuk bekerja di industri multimedia, yang melibatkan pengembangan konten multimedia seperti gambar, suara, video, animasi, dan interaksi digital. Jurusan Multimedia memberikan dasar pengetahuan dan keterampilan yang diperlukan bagi siswa untuk mengembangkan karir di industri yang berhubungan dengan desain dan produksi multimedia. Lulusan dari jurusan ini dapat bekerja sebagai desainer grafis, pembuat konten web, pengembang perangkat lunak multimedia, editor video, animator, atau spesialis interaksi digital, dan mereka dapat bekerja di berbagai industri, termasuk periklanan, hiburan, pendidikan, dan banyak lagi."
+      ]
+    },
+    {
+      "tag": "prosespemilihanjurusan",
+      "patterns": [
+        "Bagaimana proses pemilihan jurusan atau program keahlian diatur di SMKN 1 Sungai Limau?",
+        "peoses pemilihan jurusan" 
+      ],
+      "responses": [
+        "Pemilihan jurusan atau program keahlian di SMKN 1 Sungai Limau, seperti di sebagian besar Sekolah Menengah Kejuruan (SMK) di Indonesia, biasanya mengikuti prosedur umum. Penjelasan Program Keahlian: Sekolah biasanya memberikan penjelasan mendalam tentang setiap program keahlian yang ditawarkan, termasuk mata pelajaran yang diajarkan, peluang karir, persyaratan masuk, dan materi pembelajaran. \n Pemilihan Program: Setelah memahami berbagai program keahlian yang ada, siswa akan diminta untuk memilih program yang sesuai dengan minat dan potensi mereka. Pilihan program biasanya dibuat dengan mengisi formulir atau melakukan pendaftaran secara online. \n Penempatan: Berdasarkan pilihan program yang mereka buat, siswa akan ditempatkan di program keahlian yang sesuai. Proses penempatan ini biasanya mempertimbangkan preferensi siswa, namun kadang-kadang juga memperhitungkan hasil tes atau kriteria lain yang ditetapkan oleh sekolah."
+      ]
+    },
+    {
+      "tag": "programunggulan",
+      "patterns": [
+        "Apakah ada program unggulan atau keahlian yang terkenal di SMKN 1 Sungai Limau?",
+        "apa jurusan yang favorite?",
+        "sebutkan program keahlian yang disukai banyak orang?", "program unggulan",
+        "jurusan favorite", "kompetensi keahlian yang banyak digemari"
+      ],
+      "responses": [
+        "Program Keahlian Teknik Alat Berat (TAB)"
+      ]
+    },
+    {
+      "tag": "pengenalanjurusan",
+      "patterns": [
+        "Apakah ada program pengenalan jurusan atau bimbingan karir bagi siswa yang akan memilih jurusan atau program keahlian?",
+        "pengenalan jurusan"
+      ],
+      "responses": [
+        "Ada, Sebelum memasuki proses pemilihan program keahlian, siswa biasanya menjalani sesi orientasi karir. Ini bertujuan untuk memberikan pemahaman tentang berbagai program keahlian yang tersedia di sekolah dan potensi karir yang terkait."
+      ]
+    },
+    {
+      "tag": "penilaian",
+      "patterns": [
+        "Bagaimana sekolah memantau perkembangan siswa dalam setiap jurusan atau program keahlian selama masa studi mereka?",
+        "penilaian"
+      ],
+      "responses": [
+        "Penilaian Akademik: Siswa dinilai secara teratur dalam mata pelajaran yang terkait dengan program keahlian mereka. Ini mencakup ujian, tugas, proyek, dan penugasan lainnya. Hasil penilaian ini memberikan gambaran tentang kemajuan akademik siswa. \n Ujian Tengah Semester dan Akhir Semester: SMK sering mengadakan ujian tengah semester dan akhir semester yang mencakup materi yang telah dipelajari selama jangka waktu tertentu. Hasil dari ujian ini digunakan untuk mengevaluasi pemahaman siswa terhadap materi pelajaran. \n Konseling Siswa: Guru BK atau konselor sekolah dapat melakukan konseling individual dengan siswa untuk membahas perkembangan mereka. Ini mencakup membantu siswa mengidentifikasi tantangan akademik atau pribadi dan memberikan saran yang sesuai. \n Raport Semesteran: SMK biasanya mengeluarkan raport semesteran yang mencakup nilai-nilai siswa dalam semua mata pelajaran dan program keahlian mereka. Ini adalah dokumen resmi yang memuat penilaian akademik dan perkembangan siswa. \n Pemantauan Kehadiran: Kehadiran siswa di kelas dan kegiatan sekolah juga dipantau. Tingkat kehadiran yang rendah dapat menjadi indikasi masalah yang mempengaruhi kemajuan siswa.\n Proyek dan Praktik Kerja: Program kejuruan seringkali mencakup proyek-proyek atau praktik kerja di lapangan. Hasil dari proyek-proyek ini dan evaluasi dari pihak lapangan dapat memberikan wawasan tentang kemampuan siswa."
+      ]
+    },
+    {
+      "tag": "klubkeahlian",
+      "patterns": [
+        "Apakah terdapat klub atau organisasi siswa yang terkait dengan setiap jurusan atau program keahlian?",
+        "klub keahlian", "organisasi keahlian"
+      ],
+      "responses": [
+        "Terdapat Klub Pengelasan untuk siswa yang belajar di program keahlian Teknik Pengelasan dan Fabrikasi Logam (TPFL). Klub ini dapat mengadakan sesi praktik pengelasan, proyek-proyek fabrikasi logam, dan kegiatan terkait dengan pengelasan."
+      ]
+    },
+    {
+      "tag": "pengakuankeahlian",
+      "patterns": [
+        "Apakah ada proyek atau program keahlian yang telah meraih prestasi atau pengakuan khusus di tingkat nasional atau regional?",
+        "pengakuan keahlian"
+        
+      ],
+      "responses": [
+        "Belum ada"
+      ]
+    },
+    {
+      "tag": "fasilitasjurusan",
+      "patterns": [
+        "Apakah terdapat fasilitas atau peralatan khusus yang terkait dengan masing-masing jurusan atau program keahlian?", 
+        "fasilitas jurusan"
+      ],
+      "responses": [
+        "Ada"
+      ]
+    },
+    {
+      "tag": "jumlahsiswa",
+      "patterns": [
+        "Berapa jumlah siswa yang saat ini bersekolah di SMKN 1 Sungai Limau?",
+        "jumlah siswa yang ada di smkn 1 sungai limau?", "jumlah siswa"
+      ],
+      "responses": [
+        "114 orang"
+      ]
+    },
+    {
+      "tag": "fasilitassekolah",
+      "patterns": [
+        "Apa saja fasilitas yang tersedia di SMKN 1 Sungai Limau?",
+        "fasilitas apa saja yang ada di smkn 1 sungai limau?" , "fasilitas sekolah"
+        
+      ],
+      "responses": [
+        "Ruang Kelas, Workshop Otomotif, workshop Teknik Pengelasan, Workshop Elektronika, Workshop Alat Berat, Workshop Multimedia, laboratorium, perpustakaan, lapangan olahraga, Mushola."
+      ]
+    },
+    {
+      "tag": "ekstrakurikuler",
+      "patterns": [
+        "Bagaimana kegiatan ekstrakurikuler di SMKN 1 Sungai Limau?",
+        "apa saja kegiatan ekstrakulikuler yang ada di smkn 1 sungai limau?", "ekstrakulikuler"
+      ],
+      "responses": [
+        "Hingga saat ini kegiatan ekstrakurikuler (Kepramukaan, Beladiri Pencak silat, Polly Ball, takrau) di SMKN 1 Sungai Limau berjalan dengan baik dan lancar"
+      ]
+    },
+    {
+      "tag": "prestasisekolah",
+      "patterns": [
+        "Apa prestasi terbaru yang diraih oleh siswa SMKN 1 Sungai Limau?",
+        "prestasi sekolah"
+      ],
+      "responses": [
+        "Mengikuti jambore ke Cibubur perwakilan Kabupaten Padang Pariaman"
+      ]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": [
+        "Apakah terdapat program bantuan atau beasiswa untuk siswa kurang mampu di SMKN 1 Sungai Limau?",
+        "beasiswa"
+      ],
+      "responses": [
+        "Ada"
+      ]
+    },
+    {
+      "tag": "teknologi",
+      "patterns": [
+        "Bagaimana SMKN 1 Sungai Limau mengintegrasikan teknologi dalam proses pembelajaran?",
+        "teknologi"
+      ],
+      "responses": [
+        "Sekolah menyediakan perangkat teknologi seperti komputer, laptop, tablet, dan perangkat pintar lainnya di ruang kelas atau laboratorium komputer sehingga siswa dapat menggunakan perangkat ini untuk penelitian, pembelajaran daring, dan proyek terkait program keahlian mereka. Sekolah menyediakan akses internet sehingga siswa dan guru dapat mengakses sumber daya daring, berkomunikasi melalui email atau platform pembelajaran daring, dan mengakses materi pembelajaran online."
+      ]
+    },
+    {
+      "tag": "sistempenilaian",
+      "patterns": [
+        "Bagaimana sistem penilaian dan evaluasi di SMKN 1 Sungai Limau?",
+        "sistem penilaian"
+      ],
+      "responses": [
+        "Sistem penilaian dan evaluasi di SMKN 1 Sungai Limau, seperti di sekolah menengah kejuruan (SMK) umumnya di Indonesia, biasanya mengikuti panduan dari Kementerian Pendidikan dan Kebudayaan (Kemendikbud) serta berpedoman pada peraturan dan kebijakan yang berlaku."
+      ]
+    },
+    {
+      "tag": "kegiatanunggulan",
+      "patterns": [
+        "Apa proyek atau kegiatan unggulan yang diterapkan di SMKN 1 Sungai Limau?",
+        "kegiatan unggulan"
+        
+      ],
+      "responses": [
+        "1. Unit Produksi (UPJ) Teknik Pengelasan dan Fabrikasi Logam dengan membuat produk jadi, \n 2. Memfasilitasi kesempatan magang atau kerja praktek di perusahaan atau industri terkait program-program keahlian untuk memberikan pengalaman kerja nyata."
+      ]
+    },
+    {
+      "tag": "persiapanujian",
+      "patterns": [
+        "Bagaimana SMKN 1 Sungai Limau mempersiapkan siswa untuk ujian nasional atau ujian akhir lainnya?",
+        "persiapan ujian"        
+      ],
+      "responses": [
+        "1. Siswa biasanya menerima pelatihan khusus untuk menghadapi ujian nasional atau ujian akhir. Pelatihan ini mungkin mencakup latihan soal, simulasi ujian, dan praktik menjawab pertanyaan-pertanyaan ujian. \n  2. Mengadakan sesi simulasi ujian nasional atau ujian akhir agar siswa terbiasa dengan format dan tipe pertanyaan yang akan mereka hadapi dalam ujian. \n 3. Setelah ujian, sekolah dapat menganalisis hasil ujian untuk memahami area-area yang perlu ditingkatkan dan memperbaiki program pembelajaran."
+      ]
+    },
+    {
+      "tag": "siswakesulitan",
+      "patterns": [
+        "Apakah terdapat program bantuan dan dukungan bagi siswa yang mengalami kesulitan belajar di SMKN 1 Sungai Limau?",
+        "siswa kesulitan"     
+      ],
+      "responses": [
+        "1. Sekolah memiliki guru BK (Bimbingan dan Konseling) atau konselor yang dapat memberikan konseling kepada siswa. \n  2. Sekolah melakukan Program Remedial yang dirancang untuk siswa yang memiliki kesulitan belajar dalam mata pelajaran tertentu \n 3. Sekolah melibatkan orang tua dalam upaya membantu siswa yang mengalami kesulitan belajar. Orang tua dapat berperan dalam mendukung pembelajaran siswa di rumah"
+      ]
+    },
+    {
+      "tag": "menjagakebersihan",
+      "patterns": [
+        "Bagaimana SMKN 1 Sungai Limau menjaga kebersihan dan sanitasi lingkungan sekolah?",
+        "menjaga kebersihan sekolah", "kebersihan sekolah"
+      ],
+      "responses": [
+        "1. Petugas kebersihan sekolah biasanya bertanggung jawab untuk membersihkan dan merawat semua bangunan sekolah, termasuk kelas, kantor administrasi, laboratorium, bengkel, dan fasilitas umum. Ini mencakup pembersihan lantai, jendela, toilet, dan semua area lainnya.\n 2. Sekolah menyediakan tempat sampah yang sesuai dan sistem pengelolaan sampah yang efektif. \n 3. Siswa dan staf diajarkan untuk membuang sampah mereka dengan benar dan mendaur ulang jika memungkinkan"
+      ]
+    },
+    {
+      "tag": "komunikasi",
+      "patterns": [
+        "Bagaimana sistem komunikasi antara guru, siswa, dan orang tua di SMKN 1 Sungai Limau?",
+        "komunikasi"
+      ],
+      "responses": [
+        "Beberapa cara umum untuk sistem komunikasi di sekolah mencakup: \n 1. Sekolah mengadakan rapat orang tua secara berkala seperti rapat PPDB, rapat Prakerin (Praktik Kerja Industri), Rapat UKK (Ujian Kompetensi Kejuruan) dan rapat perkembangan sekolah lainnya \n 2. Sekolah mengeluarkan laporan kemajuan siswa secara berkala yang diberikan kepada orang tua. Laporan ini mencantumkan nilai siswa, kehadiran, dan evaluasi perkembangan mereka dalam berbagai aspek.\n  3. Sekolah menggunakan media sosial atau situs web untuk berbagi informasi, berita, dan kegiatan sekolah dengan siswa dan orang tua"
+      ]
+    },
+    {
+      "tag": "mengatasibullying",
+      "patterns": [
+        "Bagaimana sekolah mengatasi isu bullying (Tawauran) atau pelecehan di antara siswa?",
+        "mengatasi bullying", "mengatasi tawuran"
+      ],
+      "responses": [
+        "1. Sekolah memiliki kebijakan anti-bullying dengan jelas dan tegas. Kebijakan ini diberikan kepada seluruh anggota komunitas sekolah, termasuk siswa, orang tua, dan staf sekolah. \n 2. Sekolah menyelenggarakan program pendidikan dan kesadaran tentang bullying. Program ini dapat mencakup pelatihan untuk siswa, guru, dan orang tua, serta kampanye kesadaran tentang dampak negatif bullying. \n 3. Selain mengatasi insiden bullying, sekolah juga fokus pada pencegahan. \n 4. Sekolah melibatkan orang tua dalam upaya pencegahan dan penanganan bullying"
+      ]
+    },
+    {
+      "tag": "pertukaranpelajar",
+      "patterns": [
+        "Apakah SMKN 1 Sungai Limau memiliki program pertukaran siswa dengan sekolah lain?",
+        "pertukaran pelajar"
+      ],
+      "responses": [
+        "tidak"
+      ]
+    },
+    {
+      "tag": "kualitaspengajaran",
+      "patterns": [
+        "Bagaimana sekolah mengukur dan meningkatkan kualitas pengajaran?",
+        "kualitas pengajaran"  
+      ],
+      "responses": [
+        "1. Sekolah melakukan evaluasi kinerja guru secara berkala. Evaluasi ini dapat mencakup pengamatan pelajaran oleh atasan atau rekan guru, penilaian berdasarkan kerangka kerja kompetensi guru, dan umpan balik dari siswa. \n 2. Guru mengikuti pelatihan dan workshop untuk meningkatkan keterampilan mereka dalam mengajar. Program pengembangan profesional ini dapat disesuaikan dengan kebutuhan individu dan tujuan sekolah. \n 3. Sekolah menggunakan data hasil belajar siswa, seperti nilai ujian dan evaluasi kinerja, untuk mengevaluasi efektivitas pengajaran. Data ini membantu sekolah dalam mengidentifikasi area yang perlu ditingkatkan."
+      ]
+    },
+    {
+      "tag": "BK",
+      "patterns": [
+        "Apakah terdapat program bimbingan dan konseling di SMKN 1 Sungai Limau?"
+      ],
+      "responses": [
+        "1. Guru BK atau konselor dapat memberikan bimbingan akademik kepada siswa untuk membantu mereka dalam pemilihan jurusan, perencanaan akademik, dan strategi belajar yang efektif. \n 2. Konselor memberikan dukungan pribadi kepada siswa yang mengalami masalah emosional, sosial, atau pribadi. Mereka membantu siswa dalam mengatasi stres, masalah keluarga, dan masalah pribadi lainnya. \n 3. Konselor membantu siswa dalam mengidentifikasi dan memecahkan masalah yang mungkin memengaruhi kemajuan mereka dalam pendidikan."
+      ]
+    },
+    {
+      "tag": "disiplinsiswa",
+      "patterns": [
+        "Bagaimana sekolah mengelola masalah disiplin siswa?",
+        "disiplin siswa"
+      ],
+      "responses": [
+        "SMKN 1 Sungai Limau memiliki prosedur dan kebijakan untuk mengelola masalah disiplin siswa. diantaranya: \n 1. Sekolah memiliki kode etik dan peraturan sekolah yang dijelaskan dalam pedoman siswa. Pedoman ini mencakup perilaku yang diharapkan dari siswa, aturan-aturan, dan konsekuensi untuk pelanggaran. \n 2. Sekolah memiliki staf pengawas yang bertanggung jawab untuk memantau perilaku siswa di seluruh area sekolah. Pengawas memastikan bahwa siswa mematuhi peraturan sekolah. \n 3. Sekolah berkomunikasi dengan orang tua siswa untuk membahas masalah disiplin dan bekerja sama dalam mengatasi masalah tersebut."
+      ]
+    },
+    {
+      "tag": "mengelolakantin",
+      "patterns": [
+        "Bagaimana SMKN 1 Sungai Limau mengelola kantin atau layanan makanan untuk siswa?",
+        "kantin", "mengelola kantin", "apakah ada kantin"
+      ],
+      "responses": [
+        "1. SMKN 1 Sungai Limau merencanakan menu makanan yang seimbang dan bergizi sesuai dengan kebutuhan siswa. \n 2. Kantin dan area makan mematuhi standar kebersihan dan sanitasi yang ketat. Ini mencakup persyaratan dalam penanganan makanan, perlindungan dari kontaminasi, dan pemeliharaan kebersihan area. \n 3. Makanan di kantin terjangkau sehingga siswa dari berbagai latar belakang ekonomi dapat mengaksesnya."
+      ]
+    },
+    {
+      "tag": "programkerjasama",
+      "patterns": [
+        "Apa program kerja sama dengan dunia usaha dan industri yang dimiliki oleh SMKN 1 Sungai Limau?",
+        "program kerjasama"
+      ],
+      "responses": [
+        "1. SMKN 1 Sungai Limau menjalin kesepakatan dengan perusahaan atau industri setempat untuk memberikan kesempatan magang atau praktik kerja kepada siswa. \n 2. Sekolah mengatur kunjungan siswa ke perusahaan atau pabrik untuk memberi mereka wawasan langsung tentang proses produksi dan operasi industri. \n 3. Sekolah mengundang praktisi industri atau ahli kejuruan untuk memberikan pelatihan atau kuliah tamu kepada siswa. \n  4. SMKN 1 Sungai Limau dapat mendukung siswa dalam mencari peluang pemagangan di berbagai perusahaan atau industri."
+      ]
+    },
+    {
+      "tag": "perpustakaan",
+      "patterns": [
+        "Bagaimana perpustakaan sekolah ini dikelola?",
+        "apakah ada perpustakaan di smkn 1 sungai limau?",
+        "perpustakaan"
+      ],
+      "responses": [
+        "Manajemen perpustakaan SMKN 1 Sungai Limau, melibatkan sejumlah praktik dan kebijakan untuk memastikan perpustakaan berfungsi sebagai sumber belajar yang efektif bagi siswa dan staf pengajar. \n 1. Perpustakaan memiliki koleksi buku cetak, buku teks, jurnal, majalah, dan sumber belajar lainnya. \n 2. Buku-buku dan sumber belajar perpustakaan diberi nomor klasifikasi, katalog, dan diindeks agar mudah ditemukan oleh pengguna. \n 3. Perpustakaan memiliki sistem peminjaman dan pengembalian buku yang teratur. \n 4. Perpustakaan memiliki ruang baca yang nyaman dan fasilitas seperti komputer dan akses internet untuk mendukung penelitian siswa. \n 5. Perpustakaan secara teratur mengevaluasi koleksi dan layanan"
+      ]
+    },
+    {
+      "tag": "maagang",
+      "patterns": [
+        "Apakah terdapat program kerja praktek atau magang untuk siswa di SMKN 1 Sungai Limau?",
+        "apakah ada maagang di smkn 1 sungai limau?", "maagang"
+      ],
+      "responses": [
+        "ada"
+      ]
+    },
+    {
+      "tag": "programkerjapraktek",
+      "patterns": [
+        "Apakah program kerja praktek atau magang ini wajib atau opsional bagi siswa?",
+        "apakah harus mengikuti program kerja praktek?", "kerja praktek", "program maagang"
+      ],
+      "responses": [
+        "Program kerja praktek atau magang adalah bagian wajib dari kurikulum, sekolah akan bekerja sama dengan mitra industri atau perusahaan untuk menyelenggarakan penempatan siswa di tempat kerja. Siswa harus mematuhi jadwal dan persyaratan yang telah ditetapkan oleh sekolah."
+      ]
+    },
+    {
+      "tag": "tujuanmaagang",
+      "patterns": [
+        "Apa tujuan utama dari program kerja praktek atau magang ini?",
+        "tujuan maagang"
+      ],
+      "responses": [
+        "Program kerja praktek atau magang bertujuan untuk memberikan siswa pengalaman kerja langsung dalam bidang kejuruan yang mereka pelajari. Hal ini membantu mereka mengembangkan pemahaman praktis tentang tugas-tugas pekerjaan dan keterampilan yang dibutuhkan di lapangan."
+      ]
+    },
+    {
+      "tag": "tempatmaagang",
+      "patterns": [
+        "Bagaimana siswa biasanya menemukan tempat magang atau kerja praktek?",
+        "tempat maagang"
+      ],
+      "responses": [
+        "1.SMKN 1 Sungai Limau memberikan bimbingan kepada siswa tentang program kerja praktek atau magang. \n 2. Siswa mencari tempat-tempat yang cocok untuk magang. \n 3. Setelah diterima di tempat magang, siswa memerlukan persetujuan dari sekolah dan orang tua sebelum memulai program kerja praktek atau magang."
+      ]
+    },
+    {
+      "tag": "kerjasama_maagang",
+      "patterns": [
+        "Apakah terdapat kerja sama dengan perusahaan atau organisasi tertentu untuk program kerja praktek atau magang?",
+        "kerjasama", "kerjasama tempat maagang", "kerja ama maagang"
+      ],
+      "responses": [
+        "Sekolah biasanya menjalin kemitraan dengan berbagai perusahaan dan industri yang relevan dengan jurusan atau program keahlian yang mereka tawarkan."
+      ]
+    },
+    {
+      "tag": "waktukmaagang",
+      "patterns": [
+        "Berapa lama durasi program kerja praktek atau magang biasanya?",
+        "berapa lama kegiatan maagang ini?",
+        "waktu maagang"
+      ],
+      "responses": [
+        "3-6 bulan"
+      ]
+    },
+    {
+      "tag": "tugasmaaganag",
+      "patterns": [
+        "Apa jenis kegiatan atau tugas yang biasanya dilakukan oleh siswa selama program kerja praktek atau magang?",
+        "ngapain aja ketika maagang?","apa saja yang dilakukan selama maagang?", 
+        "tugas maagang"
+      ],
+      "responses": [
+        "1. Mengikuti pembekalan Prakerin.\n 2. Mengikuti Apel di perusahaan. \n 3. Siswa berinteraksi dengan peralatan dan alat yang digunakan di industri tersebut. \n  4. Memberikan laporan atau presentasi tentang pengalaman mereka"
+      ]
+    },
+    {
+      "tag": "panduanmaagang",
+      "patterns": [
+        "Apakah terdapat panduan atau supervisi yang diberikan kepada siswa selama program kerja praktek atau magang?",
+        "panduan maagang"
+      ],
+      "responses": [
+        "Ya, selama program kerja praktek atau magang, siswa biasanya menerima panduan dan supervisi untuk membantu mereka dalam menjalani pengalaman tersebut."
+      ]
+    },
+    {
+      "tag": "perkembangansiswamaagang",
+      "patterns": [
+        "Bagaimana SMKN 1 Sungai Limau memantau dan mengevaluasi perkembangan siswa selama program kerja praktek atau magang?",
+        "perkembangan siswa maagang"
+      ],
+      "responses": [
+        "1. Dilakukan monitoring setiap 1 atau 2 bulan. \n 2. Dengan melihat buku harian, daftar hadir dan laporan kemajuan praktik siswa. \n 3. Dengan melihat laporan akhir prakerin siswa"
+      ]
+    },
+    {
+      "tag": "keamanan_selama_maagang",
+      "patterns": [
+        "Bagaimana sekolah memastikan keamanan dan kesejahteraan siswa selama program kerja praktek atau magang?",
+        "keamanan maagang", "keamanan prakerin"
+      ],
+      "responses": [
+        "Sekolah bekerja sama dengan perusahaan atau organisasi mitra untuk memastikan bahwa tempat magang yang dipilih untuk siswa adalah tempat yang aman. Siswa diberikan peralatan pelindung diri yang sesuai dengan jenis pekerjaan yang akan mereka lakukan Sekolah biasanya memiliki asuransi yang mencakup siswa selama program kerja praktek atau magang"
+      ]
+    },
+    {
+      "tag": "labor",
+      "patterns": [
+        "Apakah SMKN 1 Sungai Limau memiliki fasilitas laboratorium komputer?", "labor"
+      ],
+      "responses": [
+        "Ada"
+      ]
+    },
+    {
+      "tag": "jumlahkomputer",
+      "patterns": [
+        "Berapa jumlah laboratorium komputer yang tersedia di SMKN 1 Sungai Limau?",
+        "jumlah komputer"
+      ],
+      "responses": [
+        "18 unit"
+      ]
+    },
+    {
+      "tag": "jambukalabor",
+      "patterns": [
+        "Bagaimana jam operasional laboratorium komputer di sekolah ini?",
+        "jumlah labor"
+      ],
+      "responses": [
+        "Di sesusikan dengan jam yg ada di roster"
+      ]
+    },
+    {
+      "tag": "jadwallabor",
+      "patterns": [
+        "Apakah laboratorium komputer diakses oleh semua siswa atau ada jadwal tertentu untuk setiap kelas?",
+        "akses labor"
+      ],
+      "responses": [
+        "Iya diakses oleh semua siswa kelas X kecuali Jurusan Multimedia untuk semua kelas"
+      ]
+    },
+    {
+      "tag": "keamananlabor",
+      "patterns": [
+        "Bagaimana sekolah memastikan keamanan perangkat keras dan perangkat lunak di laboratorium komputer?",
+        "keamanan labor"
+      ],
+      "responses": [
+        "Untuk memastikan keamanan perangkat keras unit komputer ditempatkan di suatu ruangan standar ber-AC , melakukan prosedur perawatan komputer. Untuk memastikan keamanan perangkat lunak komputer dilengkapi dengan anti virus."
+      ]
+    },
+    {
+      "tag": "aturanlabor",
+      "patterns": [
+        "Apakah terdapat aturan atau kebijakan tertentu yang harus diikuti oleh siswa saat menggunakan laboratorium komputer?",
+        "aturan labor"
+      ],
+      "responses": [
+        "Iya terdapat aturan tertulis dan ditempel di ruangan yang dikeluarkan oleh pihak Jurusan dan diketahui oleh Kepala Sekolah."
+      ]
+    },
+    {
+      "tag": "kegunaanlabor",
+      "patterns": [
+        "Apakah laboratorium komputer digunakan untuk mengadakan ujian atau evaluasi siswa?",
+        "kegunaan labor"
+      ],
+      "responses": [
+        "Iya komputer digunakan untuk mengadakan ujian maupun evaluasi siswa"
+      ]
+    }
+  ]
+}
